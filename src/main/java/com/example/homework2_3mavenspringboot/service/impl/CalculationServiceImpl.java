@@ -27,7 +27,7 @@ public class CalculationServiceImpl implements CalculationService {
     public String divide(double value, double value2) {
         double divide = 0;
         if (value2 == 0) {
-            return "Делить на 0 нельзя";
+            return "Делить на 0 нельзя ";
         } else {
             divide = value / value2;
             return value + " / " + value2 + " = " + divide;
